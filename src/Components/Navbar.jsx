@@ -5,12 +5,12 @@ import { faShoppingCart, faUser } from '@fortawesome/free-solid-svg-icons';
 
 const Navbar = () => {
     return (
-        <div className='flex justify-between items-center'>
+        <div className='flex justify-between items-center absolute z-10'>
             <img src={Logo} alt="coffee" className='w-20 h-20 ml-20 pt-5' />
             <div className='flex justify-around '>
                 <div className=' mr-20' style={{color: '#F8E4BE'}}>
-                    <FontAwesomeIcon icon={faShoppingCart} className='text-xl mr-6 '/>
-                    <FontAwesomeIcon icon={faUser} className='text-xl' />
+                    <FontAwesomeIcon icon={faShoppingCart} className='text-sm mr-6 '/>
+                    <FontAwesomeIcon icon={faUser} className='text-sm' />
                 </div>
                 <ul className='flex mr-20'>
                     <li className='mr-6'>Home</li>
